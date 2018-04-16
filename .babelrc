@@ -1,0 +1,26 @@
+{
+    "presets": [],
+    "plugins": [
+        "add-module-exports",
+        [
+            "transform-es2015-modules-commonjs",
+            {
+                "allowTopLevelThis": true,
+                "strict": false
+            }
+        ],
+        "syntax-trailing-function-commas",
+        [
+            "transform-class-properties",
+            {
+                "spec": true
+            }
+        ],
+        [
+            "transform-object-rest-spread",
+            {
+                "useBuiltIns": true
+            }
+        ]
+    ]
+}
