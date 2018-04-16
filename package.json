@@ -1,18 +1,9 @@
 {
   "name": "weapp.socket.io",
-  "version": "0.0.1",
-  "keywords": [
-    "weapp",
-    "wechat",
-    "websocket",
-    "socket.io",
-    "client"
-  ],
+  "version": "0.0.2",
+  "keywords": ["weapp", "wechat", "websocket", "socket.io", "client"],
   "main": "./lib/index",
-  "files": [
-    "lib/",
-    "dist/"
-  ],
+  "files": ["lib/", "dist/"],
   "contributors": [
     {
       "name": "Wilson",
