@@ -1,9 +1,18 @@
 {
   "name": "weapp.socket.io",
   "version": "0.0.1",
-  "keywords": ["weapp", "wechat", "websocket", "socket.io", "client"],
+  "keywords": [
+    "weapp",
+    "wechat",
+    "websocket",
+    "socket.io",
+    "client"
+  ],
   "main": "./lib/index",
-  "files": ["lib/", "dist/"],
+  "files": [
+    "lib/",
+    "dist/"
+  ],
   "contributors": [
     {
       "name": "Wilson",
@@ -25,7 +34,7 @@
     "parseuri": "0.0.5",
     "socket.io-parser": "~3.2.0",
     "to-array": "0.1.4",
-    "weapp.engine.io": "^0.0.2"
+    "weapp.engine.io": "^0.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
