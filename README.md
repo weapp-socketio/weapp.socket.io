@@ -10,6 +10,18 @@ Full feature socket.io style implemented (polling & websocket)
 
 ## How to use
 
+### Install
+
+```
+  npm i weapp.socket.io
+```
+
+or
+
+```
+  git clone https://github.com/wxsocketio/weapp.socket.io.git
+```
+
 ### Compiled
 
 ```
