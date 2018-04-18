@@ -1,10 +1,12 @@
 # weapp.socket.io
 
+See [Weapp demo](https://github.com/wxsocketio/socket.io-weapp-demo)
+
 ## Feature
 
 Full feature socket.io style implemented (polling & websocket)
 
-> weapp's http request not support binary, so you can't transport binary data use polling
+> weapp's http request not support binary, so you can't transport binary data use polling.
 
 ## How to use
 
