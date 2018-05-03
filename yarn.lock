@@ -5216,9 +5216,9 @@ watchpack@^1.5.0:
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
 
-weapp.engine.io@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/weapp.engine.io/-/weapp.engine.io-0.1.0.tgz#4fa720c00ad91e72c55a6ad51a2b89a1b4422241"
+weapp.engine.io@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/weapp.engine.io/-/weapp.engine.io-0.1.1.tgz#234efdd83e0a3000c0187c1b3fa10012ef78b049"
   dependencies:
     component-emitter "1.2.1"
     component-inherit "0.0.3"
