@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new webpack.NormalModuleReplacementPlugin(
       /debug/,
-      process.cwd() + '/support/noop.js',
+      process.cwd() + '/support/noop.js'
     ),
   ],
   module: {
