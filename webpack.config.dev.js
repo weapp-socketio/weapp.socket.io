@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new webpack.NormalModuleReplacementPlugin(
       /debug/,
-      process.cwd() + '/support/debug.js',
+      process.cwd() + '/support/debug.js'
     ),
   ],
   module: {
