@@ -9,6 +9,8 @@ Full feature socket.io style implemented (polling & websocket), based-on `socket
 > Note: weapp's http request not support binary, so you can't transport binary data use polling.
 > Not support multiple connection for now, please wait next version :)
 
+> removed polling transport
+
 ## How to use
 
 ### Install
@@ -63,3 +65,7 @@ socket.emit('news', {
 # API
 
 See [socket.io-client API](https://github.com/socketio/socket.io-client/blob/master/docs/API.md)
+
+# TODO
+
+- AliPay mini program
