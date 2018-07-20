@@ -1,3 +1,8 @@
+# 合作伙伴征集
+如果你的项目正在使用 [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) 欢迎留下你的信息（产品名称，官网等）
+
+> 可以给此 README 文件提交 PR
+
 # weapp.socket.io
 
 See [Weapp demo](https://github.com/wxsocketio/socket.io-weapp-demo)
