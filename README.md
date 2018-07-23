@@ -1,7 +1,7 @@
 # 合作伙伴征集
-如果你的项目正在使用 [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) 欢迎留下你的信息（产品名称，官网等）
+如果你的项目正在使用 [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) 欢迎留下你的项目信息（名称，Logo，官网等）
 
-> 可以给此 README 文件提交 PR
+> 可以在 [这个 Issue](https://github.com/weapp-socketio/weapp.socket.io/issues/13) 提交您的项目信息
 
 # weapp.socket.io
 
