@@ -1,4 +1,5 @@
 ![logo](https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4)
+<img src="https://avatars3.githubusercontent.com/u/18544015?s=200&u=2ef4c96445ee5cc3b9b4b9817666287f85b77068&v=4" style="border-radius: 50%;max-width:100%;"/>
 
 # 合作伙伴征集
 如果你的项目正在使用 [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) 欢迎留下你的项目信息（名称，Logo，官网等）
