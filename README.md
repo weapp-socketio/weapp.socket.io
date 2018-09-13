@@ -12,12 +12,8 @@ See [Weapp demo](https://github.com/wxsocketio/socket.io-weapp-demo)
 
 ## Feature
 
-Full feature socket.io style implemented (polling & websocket), based-on `socket.io@2.0` version
-
-> Note: weapp's http request not support binary, so you can't transport binary data use polling.
-> Not support multiple connection for now, please wait next version :)
-
-> removed polling transport
+Full feature socket.io style implemented, based-on `socket.io@2.0` version
+> NOTE: Only support websocket transport, removed polling transport.
 
 ## How to use
 
