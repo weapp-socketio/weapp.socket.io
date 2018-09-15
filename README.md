@@ -10,6 +10,9 @@
 
 See [Weapp demo](https://github.com/wxsocketio/socket.io-weapp-demo)
 
+[使用 Wepy 框架的 Demo](https://github.com/weapp-socketio/wepy-demo-socket.io)
+
+
 ## Feature
 
 Full feature socket.io style implemented, based-on `socket.io@2.0` version
