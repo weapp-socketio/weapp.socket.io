@@ -62,7 +62,7 @@ See [socket.io-client API](https://github.com/socketio/socket.io-client/blob/mas
 
 - AliPay mini program support
 
-# Contributors
+# Contributing
 
 <img src="https://avatars3.githubusercontent.com/u/18544015?s=100&u=2ef4c96445ee5cc3b9b4b9817666287f85b77068&v=4" style="border-radius: 50%" />
 
