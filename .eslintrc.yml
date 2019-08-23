@@ -8,7 +8,7 @@ globals:
   async: true
 
 plugins:
-- prettier
+  - prettier
 
 env:
   browser: false
@@ -16,10 +16,10 @@ env:
 
 rules:
   prettier/prettier:
-  - error
-  - printWidth: 120
-    tabWidth: 2
-    semi: false
-    singleQuote: true
-    trailingComma: all
-    eslintIntegration: true
+    - error
+    - printWidth: 120
+      tabWidth: 2
+      semi: false
+      singleQuote: true
+      trailingComma: all
+      eslintIntegration: true

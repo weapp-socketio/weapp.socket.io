@@ -1,35 +1,32 @@
-const path = require('path')
-const webpack = require('webpack')
-
-function resolve(dir) {
-  return path.join(__dirname, '..', dir)
-}
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
-  entry: './lib/index.js',
+  mode: 'production',
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'lib'),
     filename: 'weapp.socket.io.js',
     libraryTarget: 'umd',
   },
   plugins: [
-    new webpack.NormalModuleReplacementPlugin(
-      /debug/,
-      process.cwd() + '/support/noop.js',
-    ),
-    new webpack.NormalModuleReplacementPlugin(
-      /^engine.io-client$/,
-      'weapp.engine.io-client',
-    ),
+    new webpack.NormalModuleReplacementPlugin(/debug/, process.cwd() + '/support/noop.js'),
+    new webpack.NormalModuleReplacementPlugin(/^ws$/g, process.cwd() + '/src/wx-ws.js'),
+    new webpack.NormalModuleReplacementPlugin(/^.\/transports\/index$/g, process.cwd() + '/src/transport.js'),
   ],
   module: {
-    rules: [
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        include: [resolve('lib')],
-      },
-    ],
-  },
-  mode: 'production',
-}
+    rules: [{
+      test: /engine.io-client\/lib\/socket.js$/,
+      loader: 'string-replace-loader',
+      options: {
+        multiple: [{
+          search: '["polling", "websocket"]',
+          replace: '["websocket"]',
+        }, {
+          search: "['polling', 'websocket']",
+          replace: "['websocket']",
+        }]
+      }
+    }]
+  }
+};
