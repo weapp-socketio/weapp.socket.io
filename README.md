@@ -12,13 +12,9 @@ weapp.socket.io is a client live in Wechat mini program environment based-on [so
 
 Full feature socket.io style implemented, based-on `socket.io@2.0` version
 
-> NOTE: Only support websocket transport, removed polling transport.
-
 # Demos
 
-[Weapp Demo](https://github.com/wxsocketio/socket.io-weapp-demo)
-
-[Wepy Demo](https://github.com/weapp-socketio/wepy-demo-socket.io)
+[Official Framework](https://github.com/wxsocketio/socket.io-weapp-demo) , [Wepy Framework](https://github.com/weapp-socketio/wepy-demo-socket.io)
 
 # Install
 
@@ -45,13 +41,21 @@ code style is same to [socket.io-client](https://github.com/socketio/socket.io-c
 ```
 const io = require('./yout_path/weapp.socket.io.js')
 
-const socket = io('http://localhost:8000')
+const socket = io('https://socket-io-chat.now.sh')
 
-socket.on('news', d => {
-  console.log('received news: ', d)
-})
+socket.on('connect', () => {
+  console.log('connection created.')
+});
 
-socket.emit('news', { title: 'this is a news' })
+socket.on('new message', d => {
+  const {
+    username,
+    message
+  } = d;
+  console.log('received: ', username, message)
+});
+
+socket.emit('add user', "Jack");
 ```
 
 # API
@@ -60,7 +64,8 @@ See [socket.io-client API](https://github.com/socketio/socket.io-client/blob/mas
 
 # TODO
 
-- AliPay mini program support
+- AliPay Mini Program
+- Lark(飞书) Mini Promram
 
 # Contributing
 
