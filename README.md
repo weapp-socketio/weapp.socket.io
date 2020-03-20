@@ -10,7 +10,11 @@ weapp.socket.io is a client live in Wechat mini program environment based-on [so
 
 # Feature
 
-Full feature socket.io style implemented, based-on `socket.io@2.0` version
+Full feature socket.io style implemented, based-on `socket.io@2.x` version, such as:
+- send message queue
+- auto reconnection
+- ping, pong
+- room, namespaces
 
 # Demos
 
