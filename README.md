@@ -1,10 +1,10 @@
-<p style="text-align: center;">
+<p align="center">
   <img src="https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4">
 </p>
-<p style="text-align: center;">
+<p align="center">
   A WebSocket client for building WeChat Mini Program implement by [socket.io](https://socket.io/)
 </p>
-<p style="text-align: center;">
+<p align="center">
   <a href="https://www.npmjs.com/package/weapp.socket.io">
     <img src="https://img.shields.io/badge/npm-2.0.1-brightgreen.svg">
   </a>
