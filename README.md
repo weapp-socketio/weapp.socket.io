@@ -15,7 +15,7 @@ A WebSocket client for building WeChat Mini Program implement by [socket.io](htt
 
 Full feature socket.io style implemented, based-on `socket.io@2.x` version, such as:
 - send message queue
-- auto reconnection
+- auto reconnect
 - ping, pong
 - room, namespaces
 
