@@ -1,4 +1,4 @@
-<div style="display: flex;flex-direction: column;align-items: center;">
+<p align="center">
 
 ![logo](https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4)
 
@@ -9,8 +9,8 @@ A WebSocket client for building WeChat Mini Program implement by [socket.io](htt
 [![GitHub stars](https://img.shields.io/github/stars/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/stargazers)
 [![GitHub license](https://img.shields.io/github/license/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/issues)
+</p>
 
-</div>
 # Feature
 
 Full feature socket.io style implemented, based-on `socket.io@2.x` version, such as:
