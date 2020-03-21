@@ -44,17 +44,21 @@ Full feature socket.io style implemented, based-on `socket.io@2.x` version, such
 If you use a third-party framework such as [wepy](https://github.com/Tencent/wepy), you should install via `npm`
 
 ```
-npm i weapp.socket.io
+$ npm install weapp.socket.io
 ```
 
 Or if you use the native way to write code，I recommend using `git clone`
 
 ```
-git clone https://github.com/10cella/weapp.socket.io
+$ git clone https://github.com/10cella/weapp.socket.io
 
-npm run build
+# development mode
+$ npm run build-dev
 
-cp path/weapp.socket.io/dist/weapp.socket.io.js path/your_weapp_dir
+# production mode
+$ npm run build
+
+$ cp path/weapp.socket.io/dist/weapp.socket.io.js path/your_weapp_dir
 ```
 
 # Usage
