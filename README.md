@@ -2,7 +2,7 @@
   <img src="https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4">
 </p>
 <p align="center">
-  A WebSocket client for building WeChat Mini Program implement by [socket.io](https://socket.io/)
+  A WebSocket client for building WeChat Mini Program implement by <a href="https://socket.io/">socket.io</a>
 </p>
 <p align="center">
   <a href="https://www.npmjs.com/package/weapp.socket.io">
