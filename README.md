@@ -1,15 +1,31 @@
-<p align="center">
-
-![logo](https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4)
-
-A WebSocket client for building WeChat Mini Program implement by [socket.io](https://socket.io/)
-
-[![NPM version](https://img.shields.io/badge/npm-2.0.1-brightgreen.svg)](https://www.npmjs.com/package/weapp.socket.io)
-[![GitHub forks](https://img.shields.io/github/forks/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/network)
-[![GitHub stars](https://img.shields.io/github/stars/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/stargazers)
-[![GitHub license](https://img.shields.io/github/license/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/10cella/weapp.socket.io.svg)](https://github.com/10cella/weapp.socket.io/issues)
+<p style="text-align: center;">
+  <img src="https://avatars0.githubusercontent.com/u/24429466?s=200&u=031180a39da9253ac73d782dabb27d46cf828e37&v=4">
 </p>
+<p style="text-align: center;">
+  A WebSocket client for building WeChat Mini Program implement by [socket.io](https://socket.io/)
+</p>
+<p style="text-align: center;">
+  <a href="https://www.npmjs.com/package/weapp.socket.io">
+    <img src="https://img.shields.io/badge/npm-2.0.1-brightgreen.svg">
+  </a>
+
+  <a href="https://github.com/10cella/weapp.socket.io/network">
+    <img src="https://img.shields.io/github/forks/10cella/weapp.socket.io.svg">
+  </a>  
+  
+  <a href="https://github.com/10cella/weapp.socket.io/stargazers">
+    <img src="https://img.shields.io/github/stars/10cella/weapp.socket.io.svg">
+  </a>  
+  
+  <a href="https://github.com/10cella/weapp.socket.io/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/10cella/weapp.socket.io.svg">
+  </a>
+
+  <a href="https://github.com/10cella/weapp.socket.io/issues">
+    <img src="https://img.shields.io/github/issues/10cella/weapp.socket.io.svg">
+  </a>
+</p>
+
 
 # Feature
 
