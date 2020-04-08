@@ -190,7 +190,7 @@ class WebSocket extends EventEmitter {
                 code: code,
                 reason: reason,
                 success: () => {
-                    this.readyState = WebSocket.CLOSEDt
+                    this.readyState = WebSocket.CLOSED
                     this._socket = null
                 },
             }),
