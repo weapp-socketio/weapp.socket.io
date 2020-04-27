@@ -1,41 +1,41 @@
 {
-  "name": "weapp.socket.io",
-  "version": "2.0.4",
-  "keywords": [
-    "realtime",
-    "framework",
-    "websocket",
-    "tcp",
-    "events",
-    "client"
-  ],
-  "main": "./lib/weapp.socket.io.js",
-  "files": [
-    "lib/"
-  ],
-  "devDependencies": {
-    "format-util": "^1.0.5",
-    "string-replace-loader": "^2.2.0",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
-  },
-  "dependencies": {
-    "socket.io-client": "^2.3.0"
-  },
-  "scripts": {
-    "prepublish": "rm -rf ./lib ./dist && npm run build",
-    "build-dev": "webpack --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.js"
-  },
-  "contributors": [
-    {
-      "name": "Wilson",
-      "email": "gongzili456@gmail.com"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:weapp-socketio/weapp.socket.io.git"
-  },
-  "license": "MIT"
+    "name": "weapp.socket.io",
+    "version": "2.0.5",
+    "keywords": [
+        "realtime",
+        "framework",
+        "websocket",
+        "tcp",
+        "events",
+        "client"
+    ],
+    "main": "./lib/weapp.socket.io.js",
+    "files": [
+        "lib/"
+    ],
+    "devDependencies": {
+        "format-util": "^1.0.5",
+        "string-replace-loader": "^2.2.0",
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "socket.io-client": "^2.3.0"
+    },
+    "scripts": {
+        "prepublish": "rm -rf ./lib ./dist && npm run build",
+        "build-dev": "webpack --config webpack.config.dev.js",
+        "build": "webpack --config webpack.config.js"
+    },
+    "contributors": [
+        {
+            "name": "Wilson",
+            "email": "gongzili456@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:weapp-socketio/weapp.socket.io.git"
+    },
+    "license": "MIT"
 }
