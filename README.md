@@ -94,10 +94,6 @@ See [socket.io-client API](https://github.com/socketio/socket.io-client/blob/mas
 - AliPay Mini Program
 - Lark(飞书) Mini Promram
 
-# Contributing
-
-<img src="https://avatars3.githubusercontent.com/u/18544015?s=100&u=2ef4c96445ee5cc3b9b4b9817666287f85b77068&v=4" style="border-radius: 50%" />
-
 # 用户信息征集
 
 如果你的项目正在使用 [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) 欢迎留下你的项目信息（名称，Logo，官网等）
