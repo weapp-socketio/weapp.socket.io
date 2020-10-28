@@ -27,6 +27,15 @@ module.exports = {
           replace: "['websocket']",
         }]
       }
+    }, {
+      test: /engine.io-client\/lib\/transports\/websocket.js$/,
+      loader: 'string-replace-loader',
+      options: {
+        multiple: [{
+          search: "typeof window === 'undefined'",
+          replace: "typeof window === 'undefined' || typeof window !== 'undefined'",
+        }]
+      }
     }]
   }
 };
