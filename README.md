@@ -88,14 +88,3 @@ socket.emit('add user', "Jack");
 # API
 
 See [socket.io-client API](https://github.com/socketio/socket.io-client/blob/master/docs/API.md)
-
-# TODO
-
-- AliPay Mini Program
-- Lark(飞书) Mini Promram
-
-# 用户信息征集
-
-如果你的项目正在使用 [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) 欢迎留下你的项目信息（名称，Logo，官网等）
-
-> 可以在 [这个 Issue](https://github.com/weapp-socketio/weapp.socket.io/issues/13) 提交您的项目信息
