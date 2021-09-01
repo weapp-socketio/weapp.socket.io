@@ -15,6 +15,7 @@
   ],
   "devDependencies": {
     "format-util": "^1.0.5",
+    "release-it": "^14.11.5",
     "string-replace-loader": "^2.2.0",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
@@ -25,7 +26,8 @@
   "scripts": {
     "prepublish": "rm -rf ./lib ./dist && npm run build",
     "build-dev": "webpack --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "release": "release-it"
   },
   "contributors": [
     {
