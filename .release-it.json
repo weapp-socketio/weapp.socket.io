@@ -1,4 +1,7 @@
 {
+  "publishConfig": {
+    "access": "public"
+  },
   "git": {
     "commitMessage": "chore: release v${version}"
   },
