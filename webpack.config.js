@@ -12,6 +12,7 @@ module.exports = {
   plugins: [
     new webpack.NormalModuleReplacementPlugin(/debug/, process.cwd() + '/support/noop.js'),
     new webpack.NormalModuleReplacementPlugin(/^ws$/g, process.cwd() + '/src/wx-ws.js'),
+    new webpack.NormalModuleReplacementPlugin(/^.\/websocket-constructor$/g, process.cwd() + '/src/websocket-constructor.js'),
     new webpack.NormalModuleReplacementPlugin(/^.\/transports\/index$/g, process.cwd() + '/src/transport.js'),
   ],
   module: {
