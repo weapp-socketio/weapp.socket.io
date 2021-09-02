@@ -9,19 +9,19 @@
     <img src="https://img.shields.io/badge/npm-2.0.1-brightgreen.svg">
   </a>
 
-  <a href="https://github.com/10cella/weapp.socket.io/network">
+  <a href="https://github.com/weapp-socketio/weapp.socket.io/network">
     <img src="https://img.shields.io/github/forks/10cella/weapp.socket.io.svg">
   </a>  
   
-  <a href="https://github.com/10cella/weapp.socket.io/stargazers">
+  <a href="https://github.com/weapp-socketio/weapp.socket.io/stargazers">
     <img src="https://img.shields.io/github/stars/10cella/weapp.socket.io.svg">
   </a>  
   
-  <a href="https://github.com/10cella/weapp.socket.io/blob/master/LICENSE">
+  <a href="https://github.com/weapp-socketio/weapp.socket.io/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/10cella/weapp.socket.io.svg">
   </a>
 
-  <a href="https://github.com/10cella/weapp.socket.io/issues">
+  <a href="https://github.com/weapp-socketio/weapp.socket.io/issues">
     <img src="https://img.shields.io/github/issues/10cella/weapp.socket.io.svg">
   </a>
 </p>
@@ -50,7 +50,7 @@ $ npm install weapp.socket.io
 Or if you use the native way to write code，I recommend using `git clone`
 
 ```
-$ git clone https://github.com/10cella/weapp.socket.io
+$ git clone https://github.com/weapp-socketio/weapp.socket.io
 
 # development mode
 $ npm run build-dev
