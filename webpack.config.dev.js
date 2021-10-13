@@ -15,6 +15,8 @@ module.exports = {
     new webpack.NormalModuleReplacementPlugin(/^ws$/g, process.cwd() + '/src/wx-ws.js'),
     new webpack.NormalModuleReplacementPlugin(/^.\/websocket-constructor$/g, process.cwd() + '/src/websocket-constructor.js'),
     new webpack.NormalModuleReplacementPlugin(/^.\/transports\/index$/g, process.cwd() + '/src/transport.js'),
+    new webpack.NormalModuleReplacementPlugin(/^.\/util$/g, process.cwd() + '/src/util.js'),
+    new webpack.NormalModuleReplacementPlugin(/^.\/engine.io-client\/lib\/util$/g, process.cwd() + '/src/util.js'),
   ],
   module: {
     rules: [{
