@@ -9,7 +9,7 @@ module.exports.pick = (obj, ...attr) => {
 
 module.exports.installTimerFunctions = (obj, opts) => {
   obj.setTimeoutFn = function(fn, time) {
-    setTimeout(() => {
+    return setTimeout(() => {
       fn()
     }, time)
   };
