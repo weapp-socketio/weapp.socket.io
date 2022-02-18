@@ -27,7 +27,7 @@
 </p>
 
 
-# Feature
+## Feature
 
 Full feature socket.io style implemented, based-on `socket.io@3.x` version, such as:
 - send message queue
@@ -35,11 +35,11 @@ Full feature socket.io style implemented, based-on `socket.io@3.x` version, such
 - ping, pong
 - room, namespaces
 
-# Demos
+## Demos
 
 [Official Framework](https://github.com/wxsocketio/socket.io-weapp-demo) , [Wepy Framework](https://github.com/weapp-socketio/wepy-demo-socket.io)
 
-# Install
+## Install
 
 If you use a third-party framework such as [wepy](https://github.com/Tencent/wepy), you should install via `npm`
 
@@ -61,7 +61,7 @@ $ npm run build
 $ cp path/weapp.socket.io/dist/weapp.socket.io.js path/your_weapp_dir
 ```
 
-# Usage
+## Usage
 
 code style is same to [socket.io-client](https://github.com/socketio/socket.io-client)
 
@@ -85,6 +85,17 @@ socket.on('new message', d => {
 socket.emit('add user', "Jack");
 ```
 
-# API
+## API
 
 See [socket.io-client API](https://github.com/socketio/socket.io-client/blob/master/docs/API.md)
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](.github/CONTRIBUTING.md)].
+<a href="https://github.com/weapp-socketio/weapp.socket.io/graphs/contributors"><img src="https://opencollective.com/weappsocketio/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/weappsocketio/contribute)]
