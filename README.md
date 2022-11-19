@@ -35,6 +35,10 @@ Full feature socket.io style implemented, based-on `socket.io@3.x` version, such
 - ping, pong
 - room, namespaces
 
+## Platform Support
+  - 微信
+  - 支付宝
+
 ## Demos
 
 [Official Framework](https://github.com/wxsocketio/socket.io-weapp-demo) , [Wepy Framework](https://github.com/weapp-socketio/wepy-demo-socket.io)
